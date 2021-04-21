@@ -1,9 +1,9 @@
 package _01_else_if._1_robot_color_chooser;
-public class Fractal{
+public class FractalTest {
     
     public static void main(String[] args) {
         
-        banachCurve(0.5, 0.5, 1, 10);
+        banachCurve(0.5, 0.5, 1, 6);
         
     }
     
