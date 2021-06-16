@@ -15,14 +15,33 @@ void draw() {
 (see the image on the recipe, it's a diagonal line of circles)
 Use modulo to make the colors alternate between yellow and black
 */
+fill(#050501);
+ellipse (250,150,150,150);
+ellipse ();
 
 
 
+
+
+
+ int s = 200;
+ for (int i = 15; i > 0; i--){
+ellipse (200,200,s,s); 
+s -= 15;
+if (i % 2 == 0) {
+  fill (#0F0F0F);
+}
+else {
+fill (#F5EE65);
+}
+
+}
+}
 /*
 Now put his head on using drawBeeFace(x,y)
 */
 
-}
+
 
 /**************   Use these methods but  DON'T CHANGE THE CODE BELOW  **************/
 
@@ -38,6 +57,7 @@ void drawFlower(int x, int y) {
      fill(#fff9bb); // light yellow
      ellipse(0, 0, 50, 50);
 } 
+
 void drawBeeFace(int BeeFaceX, int BeeFaceY) {
      noStroke();
      fill(0, 0, 0);
@@ -58,4 +78,5 @@ void drawBeeFace(int BeeFaceX, int BeeFaceY) {
       ellipse(BeeFaceX, BeeFaceY+10, 20, 10);// mouth
      fill(255, 251, 28);
      ellipse(BeeFaceX, BeeFaceY+5, 20, 6);
+     
 }
