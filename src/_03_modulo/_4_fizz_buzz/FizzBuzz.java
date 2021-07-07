@@ -1,13 +1,14 @@
 
 package _03_modulo._4_fizz_buzz;
 
+import java.awt.print.Printable;
 
 /**
 * Fizz Buzz
 * 
 * In this project, we're going to build FizzBuzz. It's a children's game where
 * you count from 1 to 20. Easy, right? Here's the catch: 
-* 
+*
 * Instead of saying a number that is divisible by 3, say "Fizz".
 * And instead of saying a number that is divisible by 5, say "Buzz".
 * For numbers divisible by both 3 and 5, say "FizzBuzz".
@@ -21,6 +22,10 @@ package _03_modulo._4_fizz_buzz;
 **/
 
 public class FizzBuzz {
-
+	public static void main(String[] args) {
+		for (int i = 1; i < 21; i++) {
+			System.out.println(i);
+			
+		}
 }
-
+}
